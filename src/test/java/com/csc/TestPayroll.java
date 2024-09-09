@@ -1,14 +1,12 @@
 package com.csc;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-public class TestPayroll {
+class PayrollTest {
 
-  Payroll payroll;
-
-  @BeforeEach
-  void setUp() {
-    payroll = new Payroll();
+  @Test
+  void TestHourlyRate() {
   }
 
   // Add your tests here
